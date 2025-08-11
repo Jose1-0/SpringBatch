@@ -1,7 +1,6 @@
 package br.com.alura.codetickets;
 
 import jakarta.persistence.*;
-import org.springframework.dao.support.DaoSupport;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
