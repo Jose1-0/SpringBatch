@@ -1,4 +1,4 @@
-package br.com.alura.codetickets;
+package br.com.alura.codetickets.impl;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,4 +1,4 @@
-package br.com.alura.codetickets;
+package br.com.alura.codetickets.impl;
 
 import jakarta.persistence.*;
 
@@ -21,6 +21,15 @@ public class Importacao {
     private String tipoIngresso;
     private Double valor;
     private LocalDateTime horaImportacao;
+    private Double taxaAdmin;
+
+    public Double getTaxaAdmin() {
+        return taxaAdmin;
+    }
+
+    public void setTaxaAdmin(Double taxaAdmin) {
+        this.taxaAdmin = taxaAdmin;
+    }
 
     public Importacao() {
     }
